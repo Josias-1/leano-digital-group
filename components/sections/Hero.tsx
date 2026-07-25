@@ -13,7 +13,7 @@ export default function Hero() {
         <div className="max-w-4xl">
 
           <span className="inline-flex rounded-full border border-blue-500/30 bg-blue-500/10 px-4 py-2 text-sm font-medium text-blue-300">
-            Enterprise AI • Cloud • Software • Data
+            Enterprise AI • Cloud • Software • Data & Analytics
           </span>
 
           <h1 className="mt-8 text-5xl font-bold tracking-tight text-white md:text-7xl">

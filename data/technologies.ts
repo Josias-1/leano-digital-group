@@ -3,7 +3,7 @@ export interface Technology {
 }
 
 export const technologies: Technology[] = [
-  { name: "Microsoft Azure" },
+  { name: "Microsoft Azure Stack" },
   { name: "Azure OpenAI" },
   { name: "Microsoft Fabric" },
   { name: "Power BI" },
