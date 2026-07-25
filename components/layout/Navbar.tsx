@@ -3,7 +3,7 @@ import Link from "next/link";
 const links = [
   { href: "#services", label: "Services" },
   { href: "#about", label: "About" },
-  { href: "#contact", label: "Contact" },
+  { href: "#articles", label: "Articles" },
 ];
 
 export default function Navbar() {
@@ -30,7 +30,7 @@ export default function Navbar() {
           href="#contact"
           className="rounded-lg bg-blue-600 px-5 py-2 text-sm font-medium transition hover:bg-blue-500"
         >
-          Let's Talk
+          Contact Us
         </Link>
       </nav>
     </header>
