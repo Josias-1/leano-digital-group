@@ -9,7 +9,7 @@ import {
 
 const features = [
   {
-    title: "Enterprise Expertise",
+    title: "Engineering Expertise",
     description:
       "We design scalable, secure, and resilient solutions that are built to support long-term business growth.",
     icon: ShieldCheck,
@@ -40,8 +40,8 @@ export default function WhyUs() {
       <Container>
         <SectionHeading
           badge="Why Choose Leano Digital Group"
-          title="Technology That Delivers Business Outcomes"
-          description="We combine enterprise engineering, cloud expertise, and AI innovation to build solutions that create measurable impact. Our focus is not just delivering technology, but helping organisations transform the way they operate."
+          title="Technology that moves work forward"
+          description="We combine engineering, cloud expertise, and AI to help complex teams reduce manual work, connect fragmented systems, and turn data into better decisions."
         />
 
         <div className="mt-16 grid gap-8 md:grid-cols-2">

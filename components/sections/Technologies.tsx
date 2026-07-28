@@ -7,7 +7,7 @@ export default function Technologies() {
       <Container>
         <div className="text-center">
           <p className="text-sm uppercase tracking-[0.3em] text-slate-500">
-            Powered by Enterprise Technologies
+            Built with Modern Technologies
           </p>
 
           <h2 className="mt-4 text-4xl font-bold">
@@ -15,8 +15,8 @@ export default function Technologies() {
           </h2>
 
           <p className="mx-auto mt-4 max-w-2xl text-slate-400">
-            We build solutions using modern, enterprise-grade technologies that
-            are trusted by organizations around the world.
+            We select proven technologies that suit the security, scale, and
+            delivery needs of each engagement.
           </p>
         </div>
 

@@ -2,6 +2,10 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+## Contact configuration
+
+Copy `.env.example` to `.env.local` and set the company contact details before deployment. The enquiry form opens a pre-filled email to `NEXT_PUBLIC_CONTACT_EMAIL`; phone and calendar links appear when their corresponding values are set.
+
 First, run the development server:
 
 ```bash

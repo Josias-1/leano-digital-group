@@ -1,24 +1,17 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
+import { contactDetails } from "@/data/contact";
+import { site } from "@/data/site";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 export const metadata: Metadata = {
+  metadataBase: new URL(site.url),
   title: {
     default: "Leano Digital Group",
     template: "%s | Leano Digital Group",
   },
-  description:
-    "Enterprise AI, Cloud, Software Engineering and Data Analytics solutions for modern businesses.",
+  description: site.description,
   keywords: [
     "Artificial Intelligence",
     "Azure",
@@ -28,6 +21,25 @@ export const metadata: Metadata = {
     "Power BI",
     "Digital Transformation",
   ],
+  openGraph: {
+    title: "Leano Digital Group",
+    description: site.description,
+    siteName: site.name,
+    type: "website",
+  },
+  twitter: { card: "summary_large_image" },
+};
+
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: site.name,
+  legalName: site.legalName,
+  description: site.description,
+  ...(site.url ? { url: site.url } : {}),
+  ...(contactDetails.email || contactDetails.phone
+    ? { contactPoint: [{ "@type": "ContactPoint", contactType: "sales", ...(contactDetails.email ? { email: contactDetails.email } : {}), ...(contactDetails.phone ? { telephone: contactDetails.phone } : {}) }] }
+    : {}),
 };
 
 export default function RootLayout({
@@ -36,11 +48,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-slate-950 text-white`}
-      >
+    <html lang="en">
+      <body className="antialiased bg-slate-950 text-white">
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema).replace(/</g, "\\u003c") }} />
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
