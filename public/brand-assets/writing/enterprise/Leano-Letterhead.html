@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Leano Digital Group — Letterhead</title>
+    <style>
+      @page { size: A4; margin: 18mm 18mm 18mm; }
+      * { box-sizing: border-box; }
+      body { margin: 0; background: #eef2f7; color: #0f172a; font: 11pt/1.62 Arial, Helvetica, sans-serif; }
+      .page { width: 210mm; min-height: 297mm; margin: 16px auto; padding: 0 18mm 20mm; background: #fff; position: relative; }
+      .masthead { height: 31mm; margin: 0 -18mm 22mm; padding: 8mm 18mm; background: #020617; display: flex; align-items: center; justify-content: space-between; }
+      .masthead img { width: 72mm; height: auto; }
+      .masthead small { color: #7dd3fc; font-size: 8pt; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+      .kicker { margin: 0 0 16mm; color: #0284c7; font-size: 8pt; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; }
+      .recipient { margin-bottom: 12mm; color: #475569; }
+      .recipient strong { color: #0f172a; }
+      .subject { margin: 0 0 7mm; color: #0f172a; font-size: 16pt; line-height: 1.25; }
+      .accent { width: 38mm; height: 2px; margin: 0 0 9mm; background: #38bdf8; }
+      p { margin: 0 0 5mm; }
+      .signature { margin-top: 13mm; }
+      .signature strong { display: block; }
+      .footer { position: absolute; left: 18mm; right: 18mm; bottom: 10mm; display: flex; justify-content: space-between; padding-top: 4mm; border-top: 1px solid #cbd5e1; color: #64748b; font-size: 7.6pt; }
+      @media print { body { background: #fff; } .page { margin: 0; } }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <header class="masthead">
+        <img src="../../email/email-signature-logo-760x160.png" alt="Leano Digital Group" />
+        <small>Corporate correspondence</small>
+      </header>
+      <div class="kicker">[Date]</div>
+      <section class="recipient">
+        <strong>[Recipient name]</strong><br />
+        [Organisation]<br />
+        [Street address]<br />
+        [City, postal code]
+      </section>
+      <h1 class="subject">[Subject line]</h1>
+      <div class="accent"></div>
+      <p>Dear [Name],</p>
+      <p>[Start your correspondence here. Use this template for formal client, partner, or supplier communication.]</p>
+      <p>[Keep the message concise, precise, and outcome-led.]</p>
+      <div class="signature">
+        <p>Kind regards,</p>
+        <strong>Mr J</strong>
+        <span>Title placeholder</span><br />
+        <span>Leano Digital Group (Pty) Ltd</span>
+      </div>
+      <footer class="footer">
+        <span>Leano Digital Group (Pty) Ltd · 123 Street, 2194</span>
+        <span>Reg/VAT: 246810 · +27 123 456 7894 · sales@leanodigitalgroup.com</span>
+      </footer>
+    </main>
+  </body>
+</html>

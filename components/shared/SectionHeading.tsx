@@ -2,12 +2,14 @@ interface SectionHeadingProps {
   badge?: string;
   title: string;
   description: string;
+  titleSize?: "default" | "compact";
 }
 
 export default function SectionHeading({
   badge,
   title,
   description,
+  titleSize = "default",
 }: SectionHeadingProps) {
   return (
     <div className="max-w-4xl">
@@ -17,7 +19,7 @@ export default function SectionHeading({
         </span>
       )}
 
-      <h2 className="mt-8 text-5xl font-bold tracking-tight text-white md:text-6xl">
+      <h2 className={`mt-8 font-bold tracking-tight text-white ${titleSize === "compact" ? "text-4xl md:text-5xl" : "text-5xl md:text-6xl"}`}>
         {title}
       </h2>
 

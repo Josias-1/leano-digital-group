@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3000mm" height="2300mm" viewBox="0 0 3000 2300">
+    <rect width="100%" height="100%" fill="#020617"/>
+    <path d="M0 1886 C840.0000000000001 1449, 1739.9999999999998 2254, 3000 552" fill="none" stroke="#38BDF8" stroke-width="4" opacity=".85"/>
+    <path d="M0 2070 C1050 1610, 1950 2300, 3000 736" fill="none" stroke="#FBBF24" stroke-width="1.5" opacity=".75"/>
+    <g transform="translate(240 230) scale(6)">
+      <rect width="40" height="40" rx="11" fill="#0F172A"/>
+      <path d="M12 10v20h15" fill="none" stroke="#38BDF8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <circle cx="28" cy="30" r="3.5" fill="#FBBF24"/>
+      <circle cx="28" cy="10" r="2" fill="#60A5FA"/>
+      <text x="53" y="17" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="3.2">LEANO</text>
+      <text x="53" y="31" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="500" letter-spacing="2.4">DIGITAL GROUP</text>
+    </g>
+    <image href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOTAgNDAiIHJvbGU9ImltZyIgYXJpYS1sYWJlbGxlZGJ5PSJ0aXRsZSI+CiAgPHRpdGxlIGlkPSJ0aXRsZSI+TGVhbm8gRGlnaXRhbCBHcm91cDwvdGl0bGU+CiAgPHJlY3Qgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiByeD0iMTEiIGZpbGw9IiMwRjE3MkEiLz4KICA8cGF0aCBkPSJNMTIgMTB2MjBoMTUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzM4QkRGOCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjQiLz4KICA8Y2lyY2xlIGN4PSIyOCIgY3k9IjMwIiByPSIzLjUiIGZpbGw9IiNGQkJGMjQiLz4KICA8Y2lyY2xlIGN4PSIyOCIgY3k9IjEwIiByPSIyIiBmaWxsPSIjNjBBNUZBIi8+CiAgPHRleHQgeD0iNTMiIHk9IjE3IiBmaWxsPSIjRkZGRkZGIiBmb250LWZhbWlseT0iSW50ZXIsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE2IiBmb250LXdlaWdodD0iNzAwIiBsZXR0ZXItc3BhY2luZz0iMy4yIj5MRUFOTzwvdGV4dD4KICA8dGV4dCB4PSI1MyIgeT0iMzEiIGZpbGw9IiM5NEEzQjgiIGZvbnQtZmFtaWx5PSJJbnRlciwgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIGZvbnQtd2VpZ2h0PSI1MDAiIGxldHRlci1zcGFjaW5nPSIyLjQiPkRJR0lUQUwgR1JPVVA8L3RleHQ+Cjwvc3ZnPgo=" x="240" y="230" width="1140" height="240"/>
+    <text x="240" y="690" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="136" font-weight="700">
+      <tspan x="240" dy="0">Technology delivery</tspan>
+      <tspan x="240" dy="180">for complex business teams.</tspan>
+    </text>
+  </svg>

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Container from "@/components/layout/Container";
 import SectionHeading from "@/components/shared/SectionHeading";
+import SignalRail from "@/components/shared/SignalRail";
 import { services } from "@/data/services";
 import { ArrowUpRight, BarChart3, BrainCircuit, Cloud, Code2 } from "lucide-react";
 
@@ -13,8 +14,8 @@ export default function Services() {
       <div className="pointer-events-none absolute inset-0 -z-10 bg-[linear-gradient(120deg,transparent_0%,rgba(37,99,235,0.06)_48%,transparent_72%)]" />
       <Container>
         <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
-          <SectionHeading badge="What we deliver" title="Choose the capability that unlocks the next move." description="Focused technology delivery for teams that need to make progress on their most consequential systems, data and workflows." />
-          <p className="max-w-xs border-l border-blue-400/40 pl-5 text-sm leading-7 text-slate-400">Every engagement starts with the outcome your team needs to see, then works back to the right blend of technology and delivery.</p>
+          <div><SignalRail index="02" label="CAPABILITIES" /><SectionHeading title="Choose the capability that unlocks the next move." description="Focused technology delivery for teams that need to make progress on their most consequential systems, data and workflows." titleSize="compact" /></div>
+          <p className="max-w-xs border-l border-blue-400/40 pl-5 text-base leading-7 text-slate-400">Every engagement starts with the outcome your team needs to see, then works back to the right blend of technology and delivery.</p>
         </div>
 
         <div className="mt-16 grid gap-6 md:grid-cols-2 xl:grid-cols-12">

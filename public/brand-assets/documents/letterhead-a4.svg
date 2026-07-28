@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297">
+    <rect width="100%" height="100%" fill="#FFFFFF"/>
+    <rect width="100%" height="18" fill="#020617"/>
+    <image href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOTAgNDAiIHJvbGU9ImltZyIgYXJpYS1sYWJlbGxlZGJ5PSJ0aXRsZSI+CiAgPHRpdGxlIGlkPSJ0aXRsZSI+TGVhbm8gRGlnaXRhbCBHcm91cDwvdGl0bGU+CiAgPHJlY3Qgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiByeD0iMTEiIGZpbGw9IiMwRjE3MkEiLz4KICA8cGF0aCBkPSJNMTIgMTB2MjBoMTUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzM4QkRGOCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjQiLz4KICA8Y2lyY2xlIGN4PSIyOCIgY3k9IjMwIiByPSIzLjUiIGZpbGw9IiNGQkJGMjQiLz4KICA8Y2lyY2xlIGN4PSIyOCIgY3k9IjEwIiByPSIyIiBmaWxsPSIjNjBBNUZBIi8+CiAgPHRleHQgeD0iNTMiIHk9IjE3IiBmaWxsPSIjRkZGRkZGIiBmb250LWZhbWlseT0iSW50ZXIsIEFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE2IiBmb250LXdlaWdodD0iNzAwIiBsZXR0ZXItc3BhY2luZz0iMy4yIj5MRUFOTzwvdGV4dD4KICA8dGV4dCB4PSI1MyIgeT0iMzEiIGZpbGw9IiM5NEEzQjgiIGZvbnQtZmFtaWx5PSJJbnRlciwgQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAiIGZvbnQtd2VpZ2h0PSI1MDAiIGxldHRlci1zcGFjaW5nPSIyLjQiPkRJR0lUQUwgR1JPVVA8L3RleHQ+Cjwvc3ZnPgo=" x="12" y="5" width="57" height="12"/>
+    <path d="M12 29H198" stroke="#38BDF8" stroke-width="0.7"/>
+    <text x="12" y="43" fill="#0F172A" font-family="Arial, sans-serif" font-size="7" font-weight="700" letter-spacing="1.4">LETTERHEAD</text>
+    <text x="12" y="50" fill="#475569" font-family="Arial, sans-serif" font-size="3.5">Azure, AI, data and enterprise software delivery</text>
+    <text x="12" y="285" fill="#64748B" font-family="Arial, sans-serif" font-size="3">leanodigitalgroup.com</text>
+  </svg>

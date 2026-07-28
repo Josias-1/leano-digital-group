@@ -35,16 +35,16 @@ export default function Navbar() {
       <nav className="mx-auto flex min-h-20 max-w-7xl flex-wrap items-center justify-between px-6 py-4 lg:px-8" aria-label="Primary navigation">
         <Link href="/" onClick={closeMenu} aria-label="Leano Digital Group home"><BrandMark /></Link>
         <div className="hidden items-center gap-8 md:flex">
-          {links.map((link) => <Link key={link.label} href={link.href} aria-current={pathname === link.href ? "page" : undefined} className={`text-sm transition hover:text-white ${pathname === link.href ? "text-white" : "text-slate-300"}`}>{link.label}</Link>)}
+          {links.map((link) => <Link key={link.label} href={link.href} aria-current={pathname === link.href ? "page" : undefined} className={`text-[15px] transition hover:text-white ${pathname === link.href ? "text-white" : "text-slate-300"}`}>{link.label}</Link>)}
         </div>
-        <div className="hidden md:block"><Link href="/contact" className="rounded-lg bg-blue-600 px-5 py-2 text-sm font-medium transition hover:bg-blue-500">Contact Us</Link></div>
+        <div className="hidden md:block"><Link href="/contact" className="rounded-lg bg-blue-600 px-5 py-2 text-[15px] font-medium transition hover:bg-blue-500">Contact Us</Link></div>
         <button ref={menuButtonRef} type="button" onClick={() => setIsOpen((open) => !open)} aria-expanded={isOpen} aria-controls="mobile-navigation" className="rounded-lg p-2 text-slate-200 transition hover:bg-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-400 md:hidden">
           <span className="sr-only">{isOpen ? "Close navigation" : "Open navigation"}</span>
           {isOpen ? <X className="h-6 w-6" aria-hidden="true" /> : <Menu className="h-6 w-6" aria-hidden="true" />}
         </button>
         {isOpen && <div id="mobile-navigation" className="mt-3 grid w-full gap-1 border-t border-white/10 pt-3 md:hidden">
-          {links.map((link) => <Link key={link.label} href={link.href} onClick={closeMenu} aria-current={pathname === link.href ? "page" : undefined} className={`rounded-lg px-3 py-3 text-sm transition hover:bg-slate-900 ${pathname === link.href ? "bg-slate-900 text-white" : "text-slate-300"}`}>{link.label}</Link>)}
-          <Link href="/contact" onClick={closeMenu} className="mt-2 rounded-lg bg-blue-600 px-3 py-3 text-center text-sm font-medium transition hover:bg-blue-500">Contact Us</Link>
+          {links.map((link) => <Link key={link.label} href={link.href} onClick={closeMenu} aria-current={pathname === link.href ? "page" : undefined} className={`rounded-lg px-3 py-3 text-[15px] transition hover:bg-slate-900 ${pathname === link.href ? "bg-slate-900 text-white" : "text-slate-300"}`}>{link.label}</Link>)}
+          <Link href="/contact" onClick={closeMenu} className="mt-2 rounded-lg bg-blue-600 px-3 py-3 text-center text-[15px] font-medium transition hover:bg-blue-500">Contact Us</Link>
         </div>}
       </nav>
     </header>

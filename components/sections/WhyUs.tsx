@@ -1,5 +1,6 @@
 import Container from "@/components/layout/Container";
 import SectionHeading from "@/components/shared/SectionHeading";
+import SignalRail from "@/components/shared/SignalRail";
 import {
   ShieldCheck,
   BrainCircuit,
@@ -38,11 +39,10 @@ export default function WhyUs() {
   return (
     <section id="about" className="py-28">
       <Container>
-        <SectionHeading
-          badge="Why Choose Leano Digital Group"
+        <div><SignalRail index="04" label="OPERATING PRINCIPLES" /><SectionHeading
           title="Technology that moves work forward"
           description="We combine engineering, cloud expertise, and AI to help complex teams reduce manual work, connect fragmented systems, and turn data into better decisions."
-        />
+        /></div>
 
         <div className="mt-16 grid gap-8 md:grid-cols-2">
           {features.map((feature) => {

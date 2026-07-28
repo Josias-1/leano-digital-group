@@ -1,5 +1,6 @@
 import Container from "@/components/layout/Container";
 import Link from "next/link";
+import SignalRail from "@/components/shared/SignalRail";
 
 export default function CTA() {
   return (
@@ -7,8 +8,8 @@ export default function CTA() {
       <Container>
 
         <div className="rounded-3xl bg-gradient-to-r from-blue-700 to-slate-900 p-14 text-center">
-
-          <h2 className="text-5xl font-bold">
+          <SignalRail index="05" label="NEXT MOVE" className="justify-center" />
+          <h2 className="mt-6 text-5xl font-bold">
             Ready to transform your business?
           </h2>
 

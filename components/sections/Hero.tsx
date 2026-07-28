@@ -9,7 +9,7 @@ export default function Hero() {
       <Container>
         <div className="grid items-center gap-14 lg:grid-cols-[1.05fr_0.95fr]">
           <div className="max-w-3xl">
-            <span className="inline-flex rounded-full border border-blue-500/30 bg-blue-500/10 px-4 py-2 text-sm font-medium text-blue-300">Azure • AI • Data Engineering</span>
+            <span className="inline-flex rounded-full border border-blue-500/30 bg-blue-500/10 px-4 py-2 text-sm font-medium text-blue-300">Azure • AI • Data & Analytics</span>
             <h1 className="mt-8 text-5xl font-bold tracking-tight text-white md:text-7xl">Technology delivery for<span className="block text-blue-500">complex business teams</span></h1>
             <p className="mt-8 max-w-2xl text-lg leading-8 text-slate-300">We help mid-market and enterprise organisations use Azure, AI and data to automate high-value work, connect their systems, and make faster, clearer decisions.</p>
             <div className="mt-10 flex flex-wrap gap-4"><Link href="/contact" className="rounded-xl bg-blue-500 px-6 py-3 font-semibold text-slate-950 transition hover:bg-blue-400">Book a Discovery Call</Link><Link href="/services" className="rounded-xl border border-slate-700 px-6 py-3 font-medium transition hover:border-blue-500 hover:bg-slate-900">Explore Services</Link></div>

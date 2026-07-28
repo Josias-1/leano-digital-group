@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 40" role="img" aria-labelledby="title">
+  <title id="title">Leano Digital Group</title>
+  <rect width="40" height="40" rx="11" fill="#0F172A"/>
+  <path d="M12 10v20h15" fill="none" stroke="#38BDF8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <circle cx="28" cy="30" r="3.5" fill="#FBBF24"/>
+  <circle cx="28" cy="10" r="2" fill="#60A5FA"/>
+  <text x="53" y="17" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="3.2">LEANO</text>
+  <text x="53" y="31" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="10" font-weight="500" letter-spacing="2.4">DIGITAL GROUP</text>
+</svg>

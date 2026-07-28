@@ -1,16 +1,15 @@
 import Container from "@/components/layout/Container";
 import { technologies } from "@/data/technologies";
+import SignalRail from "@/components/shared/SignalRail";
 
 export default function Technologies() {
   return (
     <section className="py-20 border-y border-slate-900 bg-slate-950/40">
       <Container>
         <div className="text-center">
-          <p className="text-sm uppercase tracking-[0.3em] text-slate-500">
-            Built with Modern Technologies
-          </p>
+          <SignalRail index="01" label="FOUNDATION" className="justify-center" />
 
-          <h2 className="mt-4 text-4xl font-bold">
+          <h2 className="mt-6 text-4xl font-bold">
             Modern Technology Stack
           </h2>
 

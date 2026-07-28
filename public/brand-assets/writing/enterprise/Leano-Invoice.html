@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Leano Digital Group — Invoice</title>
+    <style>
+      @page { size: A4; margin: 16mm; } * { box-sizing: border-box; } body { margin: 0; background:#eef2f7; color:#0f172a; font:10pt/1.45 Arial,Helvetica,sans-serif; }
+      .page { width:210mm; min-height:297mm; margin:16px auto; padding:16mm; background:#fff; } .top { display:flex; justify-content:space-between; align-items:flex-start; padding-bottom:10mm; border-bottom:3px solid #0ea5e9; } .top img { width:72mm; } .top h1 { margin:0; font-size:28pt; letter-spacing:.08em; color:#0f172a; } .top small { display:block; margin-top:2mm; color:#64748b; text-align:right; }
+      .details { display:grid; grid-template-columns:1.2fr .8fr; gap:20mm; margin:12mm 0; } .label { color:#0369a1; font-size:8pt; font-weight:700; letter-spacing:.13em; text-transform:uppercase; } .details p { margin:2mm 0; } .invoice-data { display:grid; grid-template-columns:1fr 1fr; gap:2mm 8mm; } .invoice-data span:nth-child(odd) { color:#64748b; }
+      table { width:100%; border-collapse:collapse; margin-top:8mm; } th { padding:3.5mm; background:#0f172a; color:#fff; text-align:left; font-size:8pt; letter-spacing:.1em; text-transform:uppercase; } th:last-child, td:last-child, th:nth-last-child(2), td:nth-last-child(2) { text-align:right; } td { padding:4mm 3.5mm; border-bottom:1px solid #dbe3ee; vertical-align:top; } .entry { color:#64748b; font-size:9pt; }
+      .totals { width:70mm; margin:8mm 0 0 auto; } .totals div { display:flex; justify-content:space-between; padding:2.5mm 0; color:#475569; } .totals .due { margin-top:2mm; padding:4mm; background:#2563eb; color:#fff; font-size:11pt; font-weight:700; } .payment { margin-top:14mm; padding:6mm; border-left:3px solid #38bdf8; background:#f8fafc; } .payment p { margin:2mm 0 0; color:#475569; } .warning { color:#b45309 !important; font-weight:700; }
+      .footer { margin-top:16mm; padding-top:4mm; border-top:1px solid #cbd5e1; color:#64748b; font-size:7.5pt; display:flex; justify-content:space-between; } @media print { body{background:#fff}.page{margin:0} }
+    </style>
+  </head>
+  <body><main class="page"><header class="top"><img src="../../email/email-signature-logo-760x160.png" alt="Leano Digital Group" /><div><h1>INVOICE</h1><small>Leano Digital Group (Pty) Ltd<br />Reg/VAT: 246810</small></div></header>
+    <section class="details"><div><div class="label">Bill to</div><p><strong>[Client organisation]</strong><br />[Contact name]<br />[Street address]<br />[City, postal code]</p></div><div class="invoice-data"><span>Invoice number</span><strong>[INV-0001]</strong><span>Issue date</span><strong>[Date]</strong><span>Payment terms</span><strong>30 days from invoice date</strong><span>Due date</span><strong>[Date]</strong></div></section>
+    <table><thead><tr><th>Item</th><th>Description</th><th>Qty</th><th>Rate</th><th>Amount</th></tr></thead><tbody><tr><td>[Service]</td><td class="entry">[Description of services delivered]</td><td>1</td><td>R 0.00</td><td>R 0.00</td></tr><tr><td>[Service]</td><td class="entry">[Description of services delivered]</td><td>1</td><td>R 0.00</td><td>R 0.00</td></tr><tr><td>[Service]</td><td class="entry">[Description of services delivered]</td><td>1</td><td>R 0.00</td><td>R 0.00</td></tr></tbody></table>
+    <section class="totals"><div><span>Subtotal</span><strong>R 0.00</strong></div><div><span>VAT (15%)</span><strong>R 0.00</strong></div><div class="due"><span>Total due</span><span>R 0.00</span></div></section>
+    <section class="payment"><div class="label">Payment details</div><p class="warning">Confirm banking details before issuing this invoice.</p><p>[Bank name] · [Account name] · [Account number] · [Branch code]</p><p>Please use the invoice number as the payment reference.</p></section>
+    <footer class="footer"><span>123 Street, 2194 · +27 123 456 7894 · sales@leanodigitalgroup.com</span><span>leanodigitalgroup.com</span></footer></main></body>
+</html>
